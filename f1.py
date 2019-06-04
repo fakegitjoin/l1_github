@@ -10,4 +10,6 @@ def f(w,c,l,i,size,parameter):
 		f(w,str(j),l,i+1,size,parameter)
 
 f(w,'',l,0,3,3)
+
+print("shows repeated permutation: ")
 print(l)
